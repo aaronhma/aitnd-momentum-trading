@@ -4,7 +4,7 @@ Udacity's AI For Trading Nanodegree Program - Project 1: Trading with Momentum
 ## Contents
 <!-- MarkdownTOC depth=4 -->
 - [Trading with Momentum](https://github.com/aaronhma/aitnd-momentum-trading/)
-  - [Getting Started[(#setup)
+  - [Getting Started](https://github.com/aaronhma/aitnd-momentum-trading#getting-started)
   - [Writeup](#writeup)
     - [Placeholder](#placeholder)
   - [Files](#files)
@@ -42,3 +42,6 @@ $ jupyter lab
 ```
 
 5. Enjoy the project!
+
+## Contributing
+Contributions are always welcome!

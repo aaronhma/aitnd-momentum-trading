@@ -37,8 +37,11 @@ $ pip3 install -r requirements.txt
 ```bash
 # For jupyter notebook:
 $ jupyter notebook
+# Then, go to http://localhost:8888/tree?token=<YOUR TOKEN HERE>
+# ============================
 # For jupyter lab:
 $ jupyter lab
+# Then, go to http://localhost:8888/lab?token=<YOUR TOKEN HERE>
 ```
 
 5. Enjoy the project!

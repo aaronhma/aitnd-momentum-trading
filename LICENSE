@@ -1,6 +1,8 @@
 MIT License
 
-Copyright (c) 2020 Aaron Ma
+Copyright (c) 2020 - Present Aaron Ma,
+Copyright (c) 2020 - Present Udacity, Inc.
+All Rights Reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +21,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+This project was submitted by Aaron Ma for Udacity's AI For Trading Nanodegree program.

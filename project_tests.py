@@ -1,10 +1,11 @@
+# Import all the required packages
 from collections import OrderedDict
 import pandas as pd
 import numpy as np
 
 from tests import generate_random_tickers, assert_output, project_test
 
-
+# DO NOT MODIFY - THE CODE BELOW WILL TEST YOUR PROJECT
 @project_test
 def test_resample_prices(fn):
     tickers = generate_random_tickers(5)

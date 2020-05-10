@@ -1,3 +1,4 @@
+# Import the required packages
 import collections
 from collections import OrderedDict
 import copy
@@ -5,10 +6,10 @@ import pandas as pd
 import numpy as np
 from datetime import date, timedelta
 
-
+# Set the float display format
 pd.options.display.float_format = '{:.8f}'.format
 
-
+# DO NOT MODIFY - THE CODE BELOW CONTAINS HELPER CODE TO TEST YOUR PROJECT
 def _generate_output_error_msg(fn_name, fn_inputs, fn_outputs, fn_expected_outputs):
     formatted_inputs = []
     formatted_outputs = []

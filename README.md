@@ -50,6 +50,58 @@ $ jupyter lab
 
 ## Writeup
 
+### Resample the Prices
+The first task of this project is to resample the stock prices to the closing prices with a monthly frequency. Here, the `resample_prices` function does that.
+
+```python
+def resample_prices(close_prices, freq = 'M'):
+    """
+    Resample close prices for each ticker at specified frequency.
+    
+    Parameters
+    ----------
+    close_prices : DataFrame
+        Close prices for each ticker and date
+    freq : str
+        What frequency to sample at
+        For valid freq choices, see http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-aliases
+    
+    Returns
+    -------
+    prices_resampled : DataFrame
+        Resampled prices for each ticker and date
+    """
+    # Return the resampled monthly closing prices
+    prices_resampled = close_prices.resample(freq).last()
+
+    return prices_resampled
+```
+
+### Compute the Logarithm of the Returns
+Next, we compute the logarithm of the returns $R$ based on the stock prices $P$. Here's the `compute_log_returns` that does it:
+
+```python
+def compute_log_returns(prices):
+    """
+    Compute log returns for each ticker.
+    
+    Parameters
+    ----------
+    prices : DataFrame
+        Prices for each ticker and date
+    
+    Returns
+    -------
+    log_returns : DataFrame
+        Log returns for each ticker and date
+    """
+    # TODO: add commentary
+    #     Return the logarithm of the shifted
+    log_returns = np.log(prices) - np.log(prices.shift(1))
+    
+    return log_returns
+```
+
 ![Loading...](https://raw.githubusercontent.com/firebolt-space/atlas/master/svg/loader/material.svg) Loading...
 
 <a name = "files" />
